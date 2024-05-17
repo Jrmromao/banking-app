@@ -38,8 +38,6 @@ const CustomInput = ({control, name, label, placeholder, type}: CustomInputProps
                         <FormMessage className={'form-message mt-2'}/>
                     </div>
                 </div>
-
-
             )}
         />
     )
