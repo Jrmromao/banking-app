@@ -13,11 +13,6 @@ const Copy = ({ title }: { title: string }) => {
             setHasCopied(false);
         }, 2000);
     };
-
-
-    console.log('title: ', title)
-
-
     return (
         <Button
             data-state="closed"
